@@ -16,6 +16,7 @@ function Main() {
       <LearnProps title="Learn Props 1" bgCol="gray"/>
       <LearnProps title="Learn Props 2" bgCol="pink"/>
       <LearnProps title="Learn Props 3"/>
+      <LearnProps> show the children prop</LearnProps>
 
 
 
