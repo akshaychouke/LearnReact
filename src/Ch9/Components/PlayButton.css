@@ -1,0 +1,44 @@
+button {
+  background-color: black;
+  border: 1px solid yellow;
+  padding: 1em;
+  border-radius: 1em;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.darkTheme {
+  color: white;
+}
+
+.darkTheme button {
+  background-color: rgba(70, 0, 0, 0.667);
+  color: rgb(11, 60, 219);
+  font-weight: 600;
+}
+
+.darkTheme button:hover {
+  background-color: rgba(255, 255, 255, 0.667);
+  color: rgb(11, 60, 219);
+}
+
+
+/* light mode */
+.lightTheme {
+  color: white;
+}
+
+.lightTheme button {
+  background-color: rgba(70, 0, 0, 0.667);
+  color: rgb(11, 60, 219);
+  font-weight: 600;
+}
+
+.lightTheme button:hover {
+  background-color: rgba(255, 255, 255, 0.667);
+  color: rgb(11, 60, 219);
+}
